@@ -5,14 +5,13 @@ import 'screens/read_users_screen.dart';
 import 'screens/update_user_screen.dart';
 import 'screens/delete_user_screen.dart';
 
-const supabaseUrl = 'https://fiyrleawoevkogboakzs.supabase.co';
+const supabaseUrl = 'Project URL';
 // NOTE: For local development you can put the anon key here. If you intend
 // to load the key from compile-time environment variables, use
 // `const String.fromEnvironment('SUPABASE_ANON_KEY')` and provide that
 // variable at build time. For simplicity we'll store the anon key directly
 // as a const here.
-const supabaseKey =
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpeXJsZWF3b2V2a29nYm9ha3pzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjMzOTA5NjgsImV4cCI6MjA3ODk2Njk2OH0.qpGH9kwcYhqGWPY1k9Pd4O3oB9V7h9_fcVOABT6_Z24';
+const supabaseKey = 'API Key';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
