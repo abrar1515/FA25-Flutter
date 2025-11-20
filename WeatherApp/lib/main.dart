@@ -42,7 +42,7 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
   String _errorMessage = '';
   late TextEditingController _cityController;
 
-  final String _apiKey = 'API Key';
+  final String _apiKey = 'API KEY';
   final List<Map<String, dynamic>> _forecastData = [
     {'day': 'Mon', 'high': 75, 'low': 65, 'condition': '☀️'},
     {'day': 'Tue', 'high': 73, 'low': 63, 'condition': '⛅'},
